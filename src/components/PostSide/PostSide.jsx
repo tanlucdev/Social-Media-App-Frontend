@@ -1,4 +1,5 @@
 import React from 'react'
+import Post from '../Posts/Posts'
 import PostShare from '../PostShare/PostShare'
 import './PostSide.scss'
 
@@ -7,6 +8,7 @@ const PostSide = () => {
     <div>
       <div className="PostSide">
         <PostShare />
+        <Post />
       </div>
     </div>
   )
