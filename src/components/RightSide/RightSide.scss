@@ -2,6 +2,12 @@
   display: flex;
   flex-direction: column;
   gap: 2em;
+
+  .right-button {
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+  }
 }
 
 .navIcons {
@@ -13,4 +19,6 @@
     width: 1.5rem;
     height: 1.5rem;
   }
+
+
 }
